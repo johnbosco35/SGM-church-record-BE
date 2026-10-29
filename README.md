@@ -11,7 +11,7 @@ cd backend
 cp .env.example .env            # then edit: MONGODB_URI, JWT_ACCESS_SECRET, CORS_ORIGINS
 npm install
 npm run seed:admin              # needs SEED_ADMIN_EMAIL / SEED_ADMIN_PASSWORD in .env (creates the first admin)
-npm run dev                     # http://localhost:4000  ·  docs at /api/docs
+npm run dev                     # https://sgm-church-record-be.onrender.com  ·  docs at /api/docs
 ```
 
 Generate a secret: `node -e "console.log(require('crypto').randomBytes(48).toString('hex'))"`
